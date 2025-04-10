@@ -100,3 +100,32 @@ body, html {
 .back-button:hover {
     background-color: #ff4500;
 }
+/* 🔄 RESPONSIVE para celular */
+@media screen and (max-width: 768px) {
+    .browser-frame {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .content {
+        padding: 30px 15px;
+    }
+
+    .custom-button {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .custom-button-text {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .browser-search input {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
