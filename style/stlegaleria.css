@@ -96,4 +96,34 @@ body, html {
 .retro-button:hover {
     background-color: #ff7043;
 }
+/* Estilos base del archivo */
 
+
+/* 🔄 RESPONSIVE para celular */
+@media screen and (max-width: 768px) {
+    .browser-frame {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .custom-button {
+        width: 90%;
+    }
+
+    .custom-button-text {
+        font-size: 1rem;
+    }
+
+    .browser-search input {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .content {
+        padding: 20px 10px;
+    }
+}
