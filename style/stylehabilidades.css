@@ -4,10 +4,12 @@ body, html {
     padding: 0;
     font-family: 'Press Start 2P', monospace;
     background-color: #e6e1f5;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    overflow-y: auto;
+    margin-top: 20px;
 }
 
 /* Ventana retro */
